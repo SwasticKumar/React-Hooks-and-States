@@ -1,0 +1,36 @@
+.App{
+  text-align: center;
+}
+.student-card{
+  border:1px solid black;
+  width: 250px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.card-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 12px;
+}
+.btn{
+  padding:7px;
+  margin:5px;
+  border:none;
+  border-radius: 10px;
+  font-size: larger;
+}
+.btn:hover{
+  color:#fff;
+  cursor: pointer;
+}
+.accept-btn{
+  background-color: green;
+}
+.reject-btn{
+  background-color: crimson;
+}
